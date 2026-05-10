@@ -1,0 +1,17 @@
+@keyframes aurora {
+  0% {
+    transform: translateX(-10%) translateY(0%);
+  }
+
+  50% {
+    transform: translateX(10%) translateY(-5%);
+  }
+
+  100% {
+    transform: translateX(-10%) translateY(0%);
+  }
+}
+
+.aurora {
+  animation: aurora 12s ease-in-out infinite;
+}
